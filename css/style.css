@@ -3,3 +3,29 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root{
+    --primary-color: #183a4a;
+    --box-color: #3d88ae;
+}
+
+body{
+    background-color: var(--primary-color) ;
+}
+
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 900px;
+    margin: 100px auto;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--box-color);
+    margin: 6px;
+    height: 100px;
+    width: 100px;
+}
