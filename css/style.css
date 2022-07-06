@@ -30,12 +30,3 @@ body{
     width: 100px;
 }
 
-.fiz{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: yellow;
-    margin: 6px;
-    height: 100px;
-    width: 100px;
-}
